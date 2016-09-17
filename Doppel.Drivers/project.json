@@ -2,12 +2,11 @@
   "version": "1.0.0-*",
   "buildOptions": {
     "debugType": "portable",
-    "emitEntryPoint": true
+    "emitEntryPoint": false
   },
   "dependencies": {
-      "Doppel.Interfaces": "*",
-      "Doppel.Drivers": "*"      
-   },
+      "Doppel.Interfaces": "*"
+  },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {

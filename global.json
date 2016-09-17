@@ -1,6 +1,7 @@
 {
     "projects":[
         "Doppel.Core",
-        "Doppel.Interfaces"
+        "Doppel.Interfaces",
+        "Doppel.Drivers"
     ]
 }

@@ -1,11 +1,9 @@
-﻿using System.IO;
-
-namespace Doppel.Interfaces
+﻿namespace Doppel.Interfaces
 {
     public interface IDriver
-    {
-        FileInfo FileInfo { get; }
-        
+    {        
+        string Path { get; set; }
+
         bool CopyFile();
 
         bool MoveFile();
