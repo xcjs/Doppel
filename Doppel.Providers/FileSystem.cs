@@ -1,8 +1,8 @@
-﻿using Doppel.Interfaces;
+﻿using Doppel.Providers;
 
-namespace Doppel.Drivers
+namespace Doppel.Providers
 {
-    public class FileSystem : IDriver
+    public class FileSystem : IProvider
     {
         public string Path { get; set; }
 

@@ -6,7 +6,7 @@
   },
   "dependencies": {
       "Doppel.Interfaces": "*",
-      "Doppel.Drivers": "*"      
+      "Doppel.Providers": "*"      
    },
   "frameworks": {
     "netcoreapp1.0": {

@@ -1,6 +1,6 @@
-﻿namespace Doppel.Interfaces
+﻿namespace Doppel.Providers
 {
-    public interface IDriver
+    public interface IProvider
     {        
         string Path { get; set; }
 
