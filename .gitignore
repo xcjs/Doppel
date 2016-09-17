@@ -251,5 +251,5 @@ paket-files/
 .idea/
 *.sln.iml
 
-# Visual Studio Code Settigns
-.vscode/
+# Dot Net Core Lock File
+project.lock.json
