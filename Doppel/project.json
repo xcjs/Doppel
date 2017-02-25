@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": false,
+    "copyToOutput": [
+        "../Doppel.Providers.FileSystem/bin/Debug/netcoreapp1.0/Doppel.Providers.FileSystem.dll",
+        "../Doppel.Providers.FileSystem/bin/Debug/netcoreapp1.0/Doppel.Providers.FileSystem.pdb",
+        "../Doppel.Providers.FileSystem/bin/Debug/netcoreapp1.0/Doppel.Providers.FileSystem.deps.json"
+    ]
+  },
+  "dependencies": {
+    "Microsoft.Extensions.Logging": "1.1.0",
+    "Doppel.Interfaces": "*",
+    "Doppel.Providers.FileSystem": "*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.1"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}

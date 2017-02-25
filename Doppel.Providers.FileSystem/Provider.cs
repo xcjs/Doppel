@@ -1,8 +1,8 @@
-﻿using Doppel.Providers;
+﻿using Doppel.Interfaces;
 
-namespace Doppel.Providers
+namespace Doppel.Providers.FileSystem
 {
-    public class FileSystem : IProvider
+    public class Provider : IProvider
     {
         public string Path { get; set; }
 

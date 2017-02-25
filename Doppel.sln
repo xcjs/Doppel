@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Doppel", "Doppel/Doppel.xproj", "{37D45180-DF5A-403C-A3DB-32E58B135FD7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Doppel.Interfaces", "Doppel.Interfaces\Doppel.Interfaces.xproj", "{87849D36-3EC9-47B8-9DA8-5D81C81AF051}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Doppel.Providers.FileSystem", "Doppel.Providers.FileSystem\Doppel.Providers.FileSystem.xproj", "{E577F62D-DBF4-41E2-891A-6469AEEEDF27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D45180-DF5A-403C-A3DB-32E58B135FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D45180-DF5A-403C-A3DB-32E58B135FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D45180-DF5A-403C-A3DB-32E58B135FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D45180-DF5A-403C-A3DB-32E58B135FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87849D36-3EC9-47B8-9DA8-5D81C81AF051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87849D36-3EC9-47B8-9DA8-5D81C81AF051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87849D36-3EC9-47B8-9DA8-5D81C81AF051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87849D36-3EC9-47B8-9DA8-5D81C81AF051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E577F62D-DBF4-41E2-891A-6469AEEEDF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E577F62D-DBF4-41E2-891A-6469AEEEDF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E577F62D-DBF4-41E2-891A-6469AEEEDF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E577F62D-DBF4-41E2-891A-6469AEEEDF27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

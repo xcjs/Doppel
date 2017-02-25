@@ -1,4 +1,6 @@
-﻿namespace Doppel.Providers
+﻿using System;
+
+namespace Doppel.Interfaces
 {
     public interface IProvider
     {        
