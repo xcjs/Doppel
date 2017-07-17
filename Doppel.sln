@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.0.0
-MinimumVisualStudioVersion = 10.0.0.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Doppel", "Doppel/Doppel.xproj", "{37D45180-DF5A-403C-A3DB-32E58B135FD7}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26114.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doppel", "Doppel\Doppel.csproj", "{37D45180-DF5A-403C-A3DB-32E58B135FD7}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Doppel.Interfaces", "Doppel.Interfaces\Doppel.Interfaces.xproj", "{87849D36-3EC9-47B8-9DA8-5D81C81AF051}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doppel.Interfaces", "Doppel.Interfaces\Doppel.Interfaces.csproj", "{87849D36-3EC9-47B8-9DA8-5D81C81AF051}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Doppel.Providers.FileSystem", "Doppel.Providers.FileSystem\Doppel.Providers.FileSystem.xproj", "{E577F62D-DBF4-41E2-891A-6469AEEEDF27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doppel.Providers.FileSystem", "Doppel.Providers.FileSystem\Doppel.Providers.FileSystem.csproj", "{E577F62D-DBF4-41E2-891A-6469AEEEDF27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
