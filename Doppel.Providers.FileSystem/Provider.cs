@@ -1,10 +1,18 @@
 ﻿using Doppel.Interfaces;
+using System;
 
 namespace Doppel.Providers.FileSystem
 {
     public class Provider : IProvider
     {
-        public string Path { get; set; }
+        public string Protocol
+        {
+            get 
+            {
+                return "file";
+            }
+        }
+        public Uri Path { get; set; }
 
         public bool CopyFile() {
             return false;

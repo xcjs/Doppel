@@ -3,8 +3,9 @@
 namespace Doppel.Interfaces
 {
     public interface IProvider
-    {        
-        string Path { get; set; }
+    {
+        string Protocol { get; }
+        Uri Path { get; set; }
 
         bool CopyFile();
 
