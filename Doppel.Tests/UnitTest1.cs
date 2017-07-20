@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Doppel
+namespace Doppel.Tests
 {
     public class UnitTest1
     {
