@@ -1,5 +1,6 @@
-﻿using Doppel.Interfaces;
+﻿using Doppel.Api;
 using System;
+using System.Collections.Generic;
 
 namespace Doppel.Providers.FileSystem
 {
@@ -12,13 +13,11 @@ namespace Doppel.Providers.FileSystem
                 return "file";
             }
         }
-        public Uri Path { get; set; }
+        public Uri Source { get; set; }
+        public Uri Destination { get; set; }
+        public Queue<string> FileQueue { get; set; }
 
         public bool CopyFile() {
-            return false;
-        }
-
-        public bool MoveFile() {
             return false;
         }
 

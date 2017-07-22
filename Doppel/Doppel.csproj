@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Doppel.Interfaces/Doppel.Interfaces.csproj" />
+    <ProjectReference Include="../Doppel.Api/Doppel.Api.csproj" />
     <ProjectReference Include="../Doppel.Providers.FileSystem/Doppel.Providers.FileSystem.csproj" />
   </ItemGroup>
 

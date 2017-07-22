@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp1.0</TargetFramework>
     <DebugType>portable</DebugType>
-    <AssemblyName>Doppel.Interfaces</AssemblyName>
+    <AssemblyName>Doppel.Api</AssemblyName>
     <OutputType>Library</OutputType>
     <PackageId>Doppel.Interfaces</PackageId>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>

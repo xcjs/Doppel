@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Doppel
 {
-    internal class ApplicationArguments
+    internal static class ApplicationArguments
     {
-        public Uri Source { get; set; }
-        public Uri Destination { get; set; }
+        public static Uri Source { get; set; }
+        public static Uri Destination { get; set; }
     }
 }

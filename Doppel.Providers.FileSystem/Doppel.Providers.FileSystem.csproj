@@ -17,7 +17,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Doppel.Interfaces/Doppel.Interfaces.csproj" />
+    <ProjectReference Include="../Doppel.Api/Doppel.Api.csproj" />
   </ItemGroup>
 
 </Project>
